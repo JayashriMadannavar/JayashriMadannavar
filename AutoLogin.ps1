@@ -21,11 +21,6 @@ $myshell.sendkeys("{ENTER}")
   Start-Sleep -Seconds 5;
   
 
-$message=($ie.Document.getElementsByTagName('h2') | Where{ $_.className -eq ‘a-color-base headline truncate-2line’ } ).innertext
 
-#$message=($ie.Document.getElementsByTagName('div') | Where{ $_.className -eq "a-cardui fluid-fat-image-link fluid-card fluid-fat-image-link" -and $_.Id -eq "Hj4BAmwGr0J-x_vgvaeDuA"  } ).outertext
-
-$Link = $ie.document.getElementByID('ysi_btn_login')
-$Link.click()
 
 $ie.Quit()
