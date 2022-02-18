@@ -1,5 +1,6 @@
 x = 5
 y = "John"
+print('hi')
 print(x)
 print(y)
 if 5 > 2:
