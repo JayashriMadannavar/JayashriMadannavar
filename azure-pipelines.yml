@@ -8,14 +8,8 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-strategy:
- - task: CmdLine@2
-   inputs:
-     script: |
-       echo Write your commands here
-       
-       echo Hello world
-       whoami
+
+
 steps:
 - task: UsePythonVersion@0
   inputs:
