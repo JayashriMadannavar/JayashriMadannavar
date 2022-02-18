@@ -1,4 +1,10 @@
 # Python package
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
 - task: DotNetCoreCLI@2
 - task: PowerShellOnTargetMachines@3
  
